@@ -220,7 +220,7 @@ class AlphaProxy(http.server.SimpleHTTPRequestHandler):
 
 
 if __name__ == '__main__':
-    server_port = 8444
+    server_port = 5000
     if len(sys.argv) > 1:
         server_port = int(sys.argv[1])
         
